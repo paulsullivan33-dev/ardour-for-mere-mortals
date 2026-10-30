@@ -1,0 +1,11 @@
+> AudioEngine:set_backend("None (Dummy)", "Dummy", "")
+> <int("create:", ok, err); print("Session:", Session)
+Setting time domain
+[WARNING]: No synth for midi-audition found.
+create: true userdata: 0x56823a0109c8
+Session: userdata: 0x56823ad5a6f8
+> <:sample_rate()); print("path:", Session:path()) end
+name: LuaTest
+rate: 48000
+path: /home/hatch/workspace/ardour-labwork/sessions
+> 

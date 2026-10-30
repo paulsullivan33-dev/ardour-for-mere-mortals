@@ -1,0 +1,12 @@
+TRS.TRS_UI 5
+TRS.TRS_ENGINE nil
+TRS.TRS_Lua nil
+TRS.TRS_Script nil
+TRS.UI nil
+TRS.Engine nil
+TRS.Lua nil
+TRS.Script nil
+TRS.TRS_MTC nil
+TRS.TRS_MIDI nil
+propget: TRS_Engine function
+propget: TRS_UI function

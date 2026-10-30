@@ -1,0 +1,6 @@
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       7.1Gi       122Mi       117Mi       969Mi       699Mi
+Swap:             0B          0B          0B
+
+E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 74887 (apt-get)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?

@@ -1,0 +1,13 @@
+lua/unknown direct dispatch of call slot via functor @ 0x7ffd8dfe8330, invalidation 0
+Setting time domain
+route: Tone
+  processors: Meter / Recorder
+  playlist regions: 1
+  region: Take1_Tone-1.1 length: a1091233920@a0 position: a0
+route: Master
+sample rate: 48000 nominal tempo check ok
+
+== LV2 bundles shipped in the extracted tree ==
+0
+ardour-lv2-plugins package bundles:
+7

@@ -1,0 +1,7 @@
+> <"now backend:", AudioEngine:current_backend_name())
+set_backend try1: true userdata: 0x64374712d168
+now backend: Dummy
+> <ry:", ok2, err2); print("Session global:", Session)
+create_session try: false [string "local ok2,err2 = pcall(function() return crea..."]:1: bad argument #3 to 'create_session' (number expected, got no value)
+Session global: nil
+> 

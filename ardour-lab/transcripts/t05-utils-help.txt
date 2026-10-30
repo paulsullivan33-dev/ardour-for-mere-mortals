@@ -1,0 +1,78 @@
+== ardour8-new_session --help ==
+ardour8-new_session - create a new session from the commandline.
+
+Usage: ardour8-new_session [ OPTIONS ] <session-dir> [session-name]
+
+Options:
+  -L, --list-templates          List available templates and exit
+  -h, --help                    Display this help and exit
+  -m, --master-channels <chn>   Master-bus channel count (default 2)
+  -s, --samplerate <rate>       Samplerate to use (default 48000)
+  -t, --template <template>     Use given template for new session
+  -V, --version                 Print version information and exit
+
+
+This tool creates a new Ardour session, optionally based on a
+session-template.
+
+If the session-name is unspecified, the sesion-dir-name is used.
+If specified, the tool expects a session-name without .ardour
+file-name extension.
+
+If no template is specified, an empty session with a stereo master
+bus is created. The -m option allows one to specify the master-bus channel
+count. If zero is used as channel count, no master-bus is created.
+
+Note: this tool can only use static session templates.
+Interactive Lua init-scripts or dynamic templates are not supported.
+
+
+Examples:
+ardour8-new_session -s 44100 -m 4 /tmp/NewSession
+
+Report bugs to <https://tracker.ardour.org/>
+Website: <https://ardour.org/>
+
+== ardour8-export --help ==
+ardour8-export - export an ardour session from the commandline.
+
+Usage: ardour8-export [ OPTIONS ] <session-dir> <session/snapshot-name>
+
+Options:
+  -b, --bitdepth <depth>     set export-format (16, 24, 32, float)
+  -B, --broadcast            include broadcast wave header
+  -h, --help                 display this help and exit
+  -n, --normalize            normalize signal level (to 0dBFS)
+  -o, --output  <file>       export output file name
+  -s, --samplerate <rate>    samplerate to use
+  -V, --version              print version information and exit
+
+
+This tool exports the session-range of a given ardour-session to a wave file,
+using the master-bus outputs.
+By default a 16bit signed .wav file at session-rate is exported.
+If the no output-file is given, the session's export dir is used.
+
+Note: the tool expects a session-name without .ardour file-name extension.
+
+Report bugs to <https://tracker.ardour.org/>
+Website: <https://ardour.org/>
+
+== luasession --help ==
+ardour-lua - interactive Ardour Lua interpreter.
+
+Usage: ardour-lua [ OPTIONS ] [ file [args] ]
+
+Options:
+  -h, --help                 display this help and exit
+  -i, --interactive          enter interactive mode after executing 'script',
+                             force the interpreter to run interactively
+  -X, --exit-when-halted     terminate when the audio-engine halts
+                             unexpectedly (disconnect, or too many xruns)
+  -V, --version              print version information and exit
+
+
+Ardour at your finger tips...
+
+Report bugs to <https://tracker.ardour.org/>
+Website: <https://ardour.org/>

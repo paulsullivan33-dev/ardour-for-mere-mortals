@@ -1,0 +1,11 @@
+> <l idx = mt and mt.__index; print("AE mt:", mt, idx)
+AE mt: false false
+> if idx then for k,v in pairs(idx) do print("AE.", k, type(v)) end end
+> print(AudioEngine:current_backend_name())
+
+> print(create_session)
+function: 0x6449f19fdb70
+> local mt2 = getmetatable(ARDOUR.Session); print("Session mt:", mt2)
+Session mt: false
+> <1; if n<40 then print("S.", k, type(v)) end end end
+> 

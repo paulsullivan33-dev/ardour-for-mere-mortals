@@ -1,0 +1,7 @@
+lua/unknown direct dispatch of call slot via functor @ 0x7ffcb1a1b0b0, invalidation 0
+Setting time domain
+[WARNING]: No synth for midi-audition found.
+loaded ok
+track list: userdata: 0x5811a9cf3f38
+track: Tone
+n_inputs type: userdata: 0x5811a8c50a78

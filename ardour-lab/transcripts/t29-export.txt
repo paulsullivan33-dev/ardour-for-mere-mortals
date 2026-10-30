@@ -1,0 +1,4 @@
+Setting time domain
+* Writing /home/hatch/workspace/ardour-labwork/FirstTake-mix.wav
+* Exporting Audio 0.0%  
+* Done.

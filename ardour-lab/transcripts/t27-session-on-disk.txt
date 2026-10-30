@@ -1,0 +1,22 @@
+== session tree ==
+FirstTake/FirstTake.ardour
+FirstTake/FirstTake.ardour.bak
+FirstTake/FirstTake.history
+FirstTake/instant.xml
+FirstTake/interchange/FirstTake/audiofiles/Take1_Tone-1%L.wav
+FirstTake/interchange/FirstTake/audiofiles/Take1_Tone-1%R.wav
+
+== Sources ==
+<Source name="Take1_Tone-1%L.wav" take-id="2026-10-30 23.02.16" type="audio" flags="" id="279" timestamp="1793401336" natural-position="a0" captured-for="Tone" channel="0" origin="" gain="1"/
+<Source name="Take1_Tone-1%R.wav" take-id="2026-10-30 23.02.16" type="audio" flags="" id="281" timestamp="1793401336" natural-position="a0" captured-for="Tone" channel="0" origin="" gain="1"/
+
+== Regions ==
+<Region name="Take1_Tone-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a1091233920@a0" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="304" type="audio" first-edit="nothing" source-0="279" source-1="281" master-source-0="279" master-source-1="281" channels="2"/
+
+== take files ==
+-- FirstTake/interchange/FirstTake/audiofiles/Take1_Tone-1%L.wav
+  Duration: 00:00:03.87, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_f32le ([3][0][0][0] / 0x0003), 48000 Hz, 1 channels, flt, 1536 kb/s
+-- FirstTake/interchange/FirstTake/audiofiles/Take1_Tone-1%R.wav
+  Duration: 00:00:03.87, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_f32le ([3][0][0][0] / 0x0003), 48000 Hz, 1 channels, flt, 1536 kb/s

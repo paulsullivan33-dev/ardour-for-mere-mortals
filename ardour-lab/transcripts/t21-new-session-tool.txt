@@ -1,0 +1,19 @@
+== templates ==
+Found nothing along /home/hatch/workspace/ardour-labwork/home/.config/ardour8/templates:/home/hatch/workspace/ardour-labwork/rootfs/usr/share/ardour8/templates
+---- List of Session Templates ----
+----
+
+== create session via tool ==
+Setting time domain
+: [WARNING]: No synth for midi-audition found.
+Created session in '/home/hatch/workspace/ardour-labwork/ToolMade'
+ToolMade
+ToolMade/peaks
+ToolMade/interchange
+ToolMade/interchange/ToolMade
+ToolMade/dead
+ToolMade/export
+ToolMade/analysis
+ToolMade/plugins
+ToolMade/externals
+ToolMade/ToolMade.ardour

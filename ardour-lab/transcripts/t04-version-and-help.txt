@@ -1,0 +1,30 @@
+== --version ==
+Ardour8.4.0~ds1 (built using 8.4.0~ds1-2ubuntu8 and GCC version 13.2.0)
+
+== --help ==
+Usage: Ardour [ OPTIONS ] [ SESSION-NAME ]
+
+Ardour is a multichannel hard disk recorder (HDR) and digital audio workstation (DAW).
+
+Options:
+  -a, --no-announcements      Do not contact website for announcements
+  -A, --actions               Print all possible menu action names
+  -b, --bindings              Display all current key bindings
+  -B, --bypass-plugins        Bypass all plugins in an existing session
+  -c, --name <name>           Use a specific backend client name, default is ardour
+  -d, --disable-plugins       Disable all plugins (safe mode)
+  -h, --help                  Print this message
+  -k, --keybindings <file>    Path to the key bindings file to load
+  -m, --menus file            Use "file" to define menus
+  -n, --no-splash             Do not show splash screen
+  -N, --new <session-name>    Create a new session from the command line
+  -O, --no-hw-optimizations   Disable h/w specific optimizations
+  -P, --no-connect-ports      Do not connect any ports at startup
+  -s, --no-strobe             Avoid "strobe-like" effects in GUI
+  -S, --sync                  Draw the GUI synchronously
+  -T, --template <name>       Use given template for new session
+  -v, --version               Print version and exit
+
+
+Report bugs to http://tracker.ardour.org
+Website http://ardour.org

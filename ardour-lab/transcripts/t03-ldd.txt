@@ -1,0 +1,5 @@
+	libsigc-2.0.so.0 => not found
+	libvamp-sdk.so.2 => not found
+== ldd sweep done ==
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       6.8Gi       119Mi       121Mi       1.2Gi       942Mi

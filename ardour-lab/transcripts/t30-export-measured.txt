@@ -1,0 +1,7 @@
+  Duration: 00:00:03.87, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, 2 channels, s16, 1536 kb/s
+
+file: FirstTake-mix.wav
+format: 48000 Hz, 2 channel(s), 16-bit PCM, 185587 frames = 3.866 s
+channel 1: peak 0.4999 (-6.02 dBFS), RMS 0.3534 (-9.04 dBFS), zero crossings 3402 -> ~439.9 Hz
+channel 2: peak 0.4999 (-6.02 dBFS), RMS 0.3534 (-9.04 dBFS), zero crossings 3402 -> ~439.9 Hz

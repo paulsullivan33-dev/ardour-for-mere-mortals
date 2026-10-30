@@ -1,0 +1,30 @@
+lua/unknown direct dispatch of call slot via functor @ 0x7ffd2b79f2c0, invalidation 0
+Setting time domain
+  proc 0 -> Meter
+  proc 1 -> Recorder
+  proc 2 -> latcomp-Tone-0x58c7779f78a0
+  proc 3 -> Player
+  proc 4 -> TriggerBox
+  proc 5 -> Polarity
+  proc 6 -> Trim
+  proc 7 -> ACE Compressor
+  proc 8 -> Fader
+  proc 9 -> main outs
+
+== LV2 dirs, exactly ==
+rootfs/usr/lib/lv2/a-comp.lv2
+rootfs/usr/lib/lv2/a-delay.lv2
+rootfs/usr/lib/lv2/a-eq.lv2
+rootfs/usr/lib/lv2/a-exp.lv2
+rootfs/usr/lib/lv2/a-fluidsynth.lv2
+rootfs/usr/lib/lv2/a-reverb.lv2
+rootfs/usr/lib/lv2/reasonablesynth.lv2
+
+usr/lib/lv2/
+usr/lib/lv2/a-comp.lv2
+usr/lib/lv2/a-delay.lv2
+usr/lib/lv2/a-eq.lv2
+usr/lib/lv2/a-exp.lv2
+usr/lib/lv2/a-fluidsynth.lv2
+usr/lib/lv2/a-reverb.lv2
+usr/lib/lv2/reasonablesynth.lv2

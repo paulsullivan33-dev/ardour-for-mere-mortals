@@ -1,0 +1,22 @@
+backend now: Dummy
+lua/unknown direct dispatch of call slot via functor @ 0x7ffcb22dc680, invalidation 0
+Setting time domain
+[WARNING]: Falling back to Reasonable Synth for Midi Audition
+session: FirstTake rate: 48000
+  track name: Tone
+STEP add stereo audio track 'Tone' -> true nil
+  plugin isnil: false
+  add_processor_by_index returned: 0
+  processors on track now: Recorder
+STEP add ACE Compressor (a-comp.lv2) to Tone -> true nil
+STEP arm track for recording -> true nil
+STEP roll (record) -> true nil
+lua/AudioEngine 1 queue call-slot using functor @ 0x7b84692a3c40, invalidation 0
+transport sample after ~4s: 186368 speed: 1.0
+STEP stop, keeping the take -> true nil
+  playlist: Tone region count: 1
+STEP inspect playlist -> false lab-build-session.lua:33: attempt to perform arithmetic on a userdata value
+STEP save session -> true 0
+  route: Tone
+  route: Master
+STEP list routes -> true nil

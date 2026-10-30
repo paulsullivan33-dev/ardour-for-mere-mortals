@@ -1,0 +1,10 @@
+> for k,v in pairs(_G) do io.write(k, " ") end; print()
+Timecode print collectgarbage rawget create_session error ipairs Vamp package loadfile PBD rawset tonumber set_debug_options _G xpcall _VERSION table coroutine sleep close_session require string ARDOUR Temporal pairs utf8 arg rawlen Evoral AudioEngine dofile load setmetatable math debug quit load_session io pcall os tostring rawequal assert select bit32 next getmetatable C type 
+> print("--AudioEngine--")
+--AudioEngine--
+> for k,v in pairs(ARDOUR.AudioEngine) do print(k, type(v)) end
+> print("--Session class--")
+--Session class--
+> for k,v in pairs(ARDOUR.Session) do print(k, type(v)) end
+RecordState table
+> 

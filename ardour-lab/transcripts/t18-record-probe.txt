@@ -1,0 +1,20 @@
+lua/unknown direct dispatch of call slot via functor @ 0x7ffc5d153cb0, invalidation 0
+Setting time domain
+[WARNING]: No synth for midi-audition found.
+TransportRequestSource members:
+  TRS.__index function: 0x79e462303a40
+  TRS.__metatable false
+  TRS.__propset table: 0x55f833e312f0
+  TRS.__propget table: 0x55f833e31220
+  TRS.__newindex function: 0x79e462303c10
+Session:record_enabled -> false probe8.lua:6: attempt to call a nil value (field '?')
+Session:set_record_enabled -> false probe8.lua:6: attempt to call a nil value (field '?')
+Session:request_record_roll -> false probe8.lua:6: attempt to call a nil value (field '?')
+Session:maybe_enable_record -> true nil
+Session:record_arm -> false probe8.lua:6: attempt to call a nil value (field '?')
+Session:get_record_enabled -> false probe8.lua:6: attempt to call a nil value (field '?')
+Session:request_transport_speed -> false probe8.lua:6: bad argument #3 to '?' (number expected, got no value)
+Session:request_stop -> false probe8.lua:6: bad argument #4 to '?' (number expected, got no value)
+Session:transport_speed -> true 0.0
+Session:transport_sample -> true 0
+route: Master

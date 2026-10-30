@@ -1,0 +1,1 @@
+Error: probe7.lua:2: attempt to call a nil value (field 'inflate_demo_session')

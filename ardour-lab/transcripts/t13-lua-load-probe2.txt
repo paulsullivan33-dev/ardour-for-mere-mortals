@@ -1,0 +1,12 @@
+lua/unknown direct dispatch of call slot via functor @ 0x7ffc54c43090, invalidation 0
+Setting time domain
+[WARNING]: No synth for midi-audition found.
+loaded: userdata: 0x57699d8e01b8
+name: LuaTest rate: 48000
+  Session:import_file false probe3.lua:6: attempt to call a nil value (field '?')
+  Session:do_import false probe3.lua:6: attempt to call a nil value (field '?')
+  Session:import_files false probe3.lua:6: attempt to call a nil value (field '?')
+  Session:new_audio_track false probe3.lua:6: bad argument #8 to '?' (number expected, got no value)
+  Session:get_routes true userdata: 0x57699d8e0678
+  Session:master_out true userdata: 0x57699e540958
+  Session:save_state false probe3.lua:6: bad argument #2 to '?' (string expected, got no value)

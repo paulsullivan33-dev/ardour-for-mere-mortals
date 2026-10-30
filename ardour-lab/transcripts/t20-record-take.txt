@@ -1,0 +1,17 @@
+lua/unknown direct dispatch of call slot via functor @ 0x7fffca795570, invalidation 0
+Setting time domain
+[WARNING]: No synth for midi-audition found.
+  track: Probe
+STEP new_audio_track -> true nil
+  control: userdata: 0x636aa06cf948 current: 0.0
+  after set: 0.0
+STEP rec-arm -> true nil
+STEP maybe_enable_record -> true nil
+STEP request_roll -> true nil
+rolling; transport speed now: 0.0 sample: 0
+lua/AudioEngine 1 queue call-slot using functor @ 0x71b8c5868c40, invalidation 0
+after 5s: speed: 1.0 sample: 232448
+STEP request_stop -> false probe10.lua:22: bad argument #3 to 'request_stop' (number expected, got no value)
+  playlist: Probe regions: 0
+STEP inspect playlist -> true nil
+STEP save_state -> true 0

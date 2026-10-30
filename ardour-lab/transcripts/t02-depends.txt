@@ -1,0 +1,67 @@
+== the lock, verbatim (also in t01) ==
+E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 74887 (apt-get)
+
+== ardour depends ==
+ardour
+  Depends: ardour-data
+  Depends: ardour-data
+  Depends: ardour-lv2-plugins
+  Depends: libarchive13t64
+  Depends: libasound2t64
+  Depends: libaubio5
+  Depends: libc6
+  Depends: libcairo2
+  Depends: libcairomm-1.0-1v5
+  Depends: libcurl3t64-gnutls
+  Depends: libcwiid1t64
+  Depends: libdbus-1-3
+  Depends: libfftw3-single3
+  Depends: libfluidsynth3
+  Depends: libfontconfig1
+  Depends: libgcc-s1
+  Depends: libglib2.0-0t64
+  Depends: libglibmm-2.4-1t64
+  Depends: liblilv-0-0
+  Depends: liblo7
+  Depends: liblrdf0
+  Depends: libltc11
+  Depends: libpango-1.0-0
+  Depends: libpangocairo-1.0-0
+  Depends: libpangoft2-1.0-0
+  Depends: libpangomm-1.4-1v5
+  Depends: libpng16-16t64
+  Depends: libpulse0
+  Depends: libqm-dsp0t64
+  Depends: libreadline8t64
+  Depends: librubberband2
+  Depends: libsamplerate0
+  Depends: libsigc++-2.0-0v5
+  Depends: libsndfile1
+  Depends: libstdc++6
+  Depends: libtag1v5
+  Depends: libusb-1.0-0
+  Depends: libvamp-hostsdk3v5
+  Depends: libvamp-sdk2v5
+  Depends: libwebsockets19t64
+  Depends: libx11-6
+  Depends: libxext6
+  Depends: libxinerama1
+  Depends: libxml2
+  Depends: libxrandr2
+  Breaks: <ardour3>
+  Recommends: ardour-video-timeline
+  Replaces: <ardour3>
+
+== ardour-data? ==
+ardour-data:
+  Installed: (none)
+  Candidate: 1:8.4.0+ds1-2ubuntu8
+  Version table:
+     1:8.4.0+ds1-2ubuntu8 500
+        500 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+        500 http://mirror.cogentco.com/pub/linux/ubuntu noble/universe amd64 Packages
+ardour-video-timeline:
+  Installed: (none)
+  Candidate: 1:8.4.0+ds1-2ubuntu8
+  Version table:
+     1:8.4.0+ds1-2ubuntu8 500

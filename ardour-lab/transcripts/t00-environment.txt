@@ -1,0 +1,30 @@
+== environment ==
+Ubuntu 24.04.5 LTS
+2
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       7.0Gi       133Mi       117Mi       1.0Gi       741Mi
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           512M  3.2M  509M   1% /tmp
+/dev/mapper/rv  200G   35G  165G  18% /home/hatch
+
+== tools ==
+ffmpeg: /usr/bin/ffmpeg
+ffprobe: /usr/bin/ffprobe
+sox: /usr/bin/sox
+soxi: /usr/bin/soxi
+xvfb-run: /usr/bin/xvfb-run
+Xvfb: /usr/bin/Xvfb
+xdotool: /usr/bin/xdotool
+python3: /usr/bin/python3
+mkdocs: MISSING
+git: /usr/bin/git
+node: /usr/bin/node
+
+== ardour in apt ==
+ardour:
+  Installed: (none)
+  Candidate: 1:8.4.0+ds1-2ubuntu8
+  Version table:
+     1:8.4.0+ds1-2ubuntu8 500
+        500 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+        500 http://mirror.cogentco.com/pub/linux/ubuntu noble/universe amd64 Packages

@@ -1,0 +1,5 @@
+lua/unknown direct dispatch of call slot via functor @ 0x7ffe1fe48db0, invalidation 0
+Setting time domain
+[WARNING]: No synth for midi-audition found.
+audio track ok
+midi step -> false bisect3.lua:7: bad argument #2 to 'new_midi_track' (ChanCount expected, got number)

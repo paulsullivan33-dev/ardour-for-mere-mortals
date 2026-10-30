@@ -1,0 +1,17 @@
+Session already exists: /home/hatch/workspace/ardour-labwork/sessions/LuaTest.ardour
+LuaAPI members:
+  LuaAPI.import nil
+  LuaAPI.do_import nil
+  LuaAPI.import_file nil
+  LuaAPI.import_files nil
+  LuaAPI.new_plugin function
+  LuaAPI.build_filename function
+Session method probes (nil-method vs other error):
+  Session:import_file false probe.lua:9: attempt to index a nil value (global 'Session')
+  Session:do_import false probe.lua:9: attempt to index a nil value (global 'Session')
+  Session:import_files false probe.lua:9: attempt to index a nil value (global 'Session')
+  Session:new_audio_track false probe.lua:9: attempt to index a nil value (global 'Session')
+  Session:audio_source_by_path false probe.lua:9: attempt to index a nil value (global 'Session')
+  Session:create_audio_source false probe.lua:9: attempt to index a nil value (global 'Session')
+  Session:get_routes false probe.lua:9: attempt to index a nil value (global 'Session')
+  Session:master_out false probe.lua:9: attempt to index a nil value (global 'Session')

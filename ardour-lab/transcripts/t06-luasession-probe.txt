@@ -1,0 +1,11 @@
+> print("LUA-OK", _VERSION)
+LUA-OK Lua 5.3
+> print("Session global:", Session)
+Session global: nil
+> print("AudioEngine:", ARDOUR.AudioEngine)
+AudioEngine: table: 0x5e2f54734000
+> <:", e); print("backend:", e:current_backend_name())
+Error: [string "local e = ARDOUR.AudioEngine:instance(); prin..."]:1: attempt to call a nil value (method 'instance')
+> os.exit(0)
+Error: [string "os.exit(0)"]:1: attempt to call a nil value (field 'exit')
+> 

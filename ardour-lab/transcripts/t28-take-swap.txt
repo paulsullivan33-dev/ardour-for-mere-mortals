@@ -1,0 +1,10 @@
+== take levels AFTER swap (440 Hz sine at half scale) ==
+Length (seconds):      3.866333
+Maximum amplitude:     0.062485
+RMS     amplitude:     0.044183
+  Duration: 00:00:03.87, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_f32le ([3][0][0][0] / 0x0003), 48000 Hz, 1 channels, flt, 1536 kb/s
+== take after regeneration ==
+Length (seconds):      3.866333
+Maximum amplitude:     0.499878
+RMS     amplitude:     0.353468

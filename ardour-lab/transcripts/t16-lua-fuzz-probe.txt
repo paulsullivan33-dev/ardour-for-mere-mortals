@@ -1,0 +1,11 @@
+lua/unknown direct dispatch of call slot via functor @ 0x7ffce8929af0, invalidation 0
+Setting time domain
+[WARNING]: No synth for midi-audition found.
+Session:create_region -> false probe6.lua:4: attempt to call a nil value (method 'create_region')
+Session:region_factory -> false probe6.lua:5: attempt to call a nil value (method 'region_factory')
+Session:add_source -> false probe6.lua:6: attempt to call a nil value (method 'add_source')
+Session:audio_sources -> false probe6.lua:7: attempt to call a nil value (method 'audio_sources')
+FileSource.new -> false probe6.lua:8: attempt to call a nil value (field 'new')
+AudioSource.new -> false probe6.lua:9: attempt to call a nil value (field 'new')
+RegionFactory:create colon -> false probe6.lua:10: attempt to call a nil value (method 'create')
+Playlist methods via track -> true userdata: 0x5d0e979f5fd8

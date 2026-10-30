@@ -1,0 +1,5 @@
+lua/unknown direct dispatch of call slot via functor @ 0x7fffe88f5ca0, invalidation 0
+Setting time domain
+[WARNING]: No synth for midi-audition found.
+loaded sess: userdata: 0x5d714b3e11b8 Session global: userdata: 0x5d714bf73f68
+name: FirstTake rate: 48000

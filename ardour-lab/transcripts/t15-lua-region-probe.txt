@@ -1,0 +1,7 @@
+lua/unknown direct dispatch of call slot via functor @ 0x7ffcdeba21c0, invalidation 0
+Setting time domain
+[WARNING]: No synth for midi-audition found.
+FileSource ctor: false probe5.lua:4: attempt to call a table value (field 'FileSource')
+RegionFactory.create(): false probe5.lua:5: attempt to call a nil value (field 'create')
+RegionFactory members:
+FileSource members:

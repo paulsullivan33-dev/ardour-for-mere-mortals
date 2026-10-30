@@ -1,0 +1,10 @@
+Cannot find session: /home/hatch/workspace/ardour-labwork/sessions/LuaTest/LuaTest.ardour
+loaded: nil global Session: nil
+  Session:import_file false probe2.lua:6: attempt to index a nil value (upvalue 'sess')
+  Session:do_import false probe2.lua:6: attempt to index a nil value (upvalue 'sess')
+  Session:import_files false probe2.lua:6: attempt to index a nil value (upvalue 'sess')
+  Session:new_audio_track false probe2.lua:6: attempt to index a nil value (upvalue 'sess')
+  Session:get_routes false probe2.lua:6: attempt to index a nil value (upvalue 'sess')
+  Session:master_out false probe2.lua:6: attempt to index a nil value (upvalue 'sess')
+  Session:save_state false probe2.lua:6: attempt to index a nil value (upvalue 'sess')
+  Session:request_stop false probe2.lua:6: attempt to index a nil value (upvalue 'sess')
